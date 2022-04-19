@@ -1,8 +1,7 @@
 # V1_Descending_Project
 Code for whole brain analysis 
-Before Beginning. . .
 
-Find a permanent directory to place Whole Brain Analysis Code and place the directory there. 
+Download .zip file and extract to where you want the directory.  
 
 in the terminal, orient to the whole brain analysis directory and create an environment from the bio-env.txt file. 
 
