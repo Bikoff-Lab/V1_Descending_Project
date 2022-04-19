@@ -7,6 +7,7 @@ in the terminal, orient to the whole brain analysis directory and create an envi
 
 Code:
 # conda env create --name phil --file bio-env.txt
+# conda activate phil
 
 in the terminal run this code: 
 # pip install -r requirements.txt
