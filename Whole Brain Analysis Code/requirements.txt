@@ -1,0 +1,8 @@
+allensdk==2.13.4
+antspyx==0.3.2
+matplotlib==3.4.1
+numpy==1.21.6
+pandas==1.3.5
+scikit-image==0.16.2
+pyqt5<5.13
+pyqtwebengine<5.13
