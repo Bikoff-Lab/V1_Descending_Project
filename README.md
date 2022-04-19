@@ -8,8 +8,6 @@ in the terminal, orient to the whole brain analysis directory and create an envi
 Code:
 # conda env create --name phil --file bio-env.txt
 # conda activate phil
-
-in the terminal run this code: 
 # pip install -r requirements.txt
 
 Change line 30 in wba.py to the path to where you put the Whole Brain Analysis Code directory (including Whole Brain Analysis Code). Save wba.py 
