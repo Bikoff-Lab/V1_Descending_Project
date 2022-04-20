@@ -7,6 +7,7 @@ Download .zip file and extract to where you want the directory.
 in the terminal, orient to the '/V1_Descending_Project/Whole Brain Analysis Code' directory and create an environment from the bio-env.txt file. 
 
 Code:
+### cd <your path>/V1_Descending_Project/Whole\ Brain\ Analysis\ Code\
 ### conda env create --name phil --file bio-env.txt
 ### conda activate phil
 ### pip install -r requirements.txt
