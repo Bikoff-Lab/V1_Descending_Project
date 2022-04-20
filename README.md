@@ -6,9 +6,9 @@ Download .zip file and extract to where you want the directory.
 in the terminal, orient to the '/V1_Descending_Project/Whole Brain Analysis Code' directory and create an environment from the bio-env.txt file. 
 
 Code:
-## conda env create --name phil --file bio-env.txt
-## conda activate phil
-## pip install -r requirements.txt
+#### conda env create --name phil --file bio-env.txt
+#### conda activate phil
+#### pip install -r requirements.txt
 
 Change line 30 in wba.py to the path to where you put the Whole Brain Analysis Code directory (including Whole Brain Analysis Code). Save wba.py 
 example: path= 'home/common/V1_Descending_Project/Whole Brain Analysis Code/'
