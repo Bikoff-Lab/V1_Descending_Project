@@ -11,6 +11,7 @@ Code:
 # pip install -r requirements.txt
 
 Change line 30 in wba.py to the path to where you put the Whole Brain Analysis Code directory (including Whole Brain Analysis Code). Save wba.py 
+example: path= 'home/common/V1_Descending_Project/Whole Brain Analysis Code/'
 
 Run build_directory.py 
 
