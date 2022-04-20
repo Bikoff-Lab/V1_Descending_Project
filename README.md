@@ -1,5 +1,6 @@
 # V1_Descending_Project
-# Code for whole brain analysis 
+
+## Code for whole brain analysis 
 
 Download .zip file and extract to where you want the directory.  
 
