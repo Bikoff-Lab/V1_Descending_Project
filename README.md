@@ -1,5 +1,5 @@
 # V1_Descending_Project
-Code for whole brain analysis 
+# Code for whole brain analysis 
 
 Download .zip file and extract to where you want the directory.  
 
@@ -16,13 +16,13 @@ example: path= 'home/common/V1_Descending_Project/Whole Brain Analysis Code/'
 Run build_directory.py 
 
 
-EXAMPLE DATA PIPELINE::::
+# EXAMPLE DATA PIPELINE:
     
 Execute: Run_Phils_Code.py, choose raw image files to process. Run one sample at a time to build up the dataset in Cell Coordinates/Transformed Coordinates/Collection
 Once all have been run, you can run wba.phil_all_v1_analysis() 
   
 
-NEW DATA PIPELINE::::  
+# NEW DATA PIPELINE:  
 Pre-Processing:
 Run wba.phil_pre_process_images() to make MIPs of the raw image files. You can use these to manually segment with fiji cell counter. 
 Choose raw single channel single plane image files sent from Denise (located in Z drive in 2 photon tomography under each sample example: 
