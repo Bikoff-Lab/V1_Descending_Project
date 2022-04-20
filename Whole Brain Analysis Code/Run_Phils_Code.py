@@ -44,7 +44,7 @@ Created on Thu Apr  7 13:36:35 2022
 
 import wba
 
-sample_number=557
+sample_number=input('Input Sample Number. . .')
 
 wba.phil_pre_process_images()
 wba.phil_registration(sample_number)
