@@ -34,7 +34,7 @@ Choose raw single channel single plane image files sent from Denise (located in 
 common\2 Photon Tomography\Sample 557\raw full res single channel single plane
 
 Segmentation: 
-Either manually segment in Fiji cell counter, or use ilastik to generate cell positions. Divide the X and Y coordinates by a factor of 20 and save this as a .csv file with column headers as Uppercase "X, Y, and Z". 
+Either manually count in Fiji cell counter, or use ilastik to segment and generate cell positions. Divide the X and Y coordinates by a factor of 20 and save this as a .csv file with column headers as Uppercase "X, Y, and Z". 
 Make sure this .csv file with x y z coordinates from segmentation has a file name of 'sample_number_manual_positions_ds.csv' (e.g. 557_manual_positions_ds.csv) and place it in "Whole Brain Analysis Code\Cell Coordinates\Input Coordinates" 
 
 You can then proceed with the rest of the script.
