@@ -19,7 +19,11 @@ Run build_directory.py
 
 # EXAMPLE DATA PIPELINE:
     
-Execute: Run_Phils_Code.py, choose raw image files to process. Run one sample at a time to build up the dataset in Cell Coordinates/Transformed Coordinates/Collection
+Execute: Run_Phils_Code.py, choose raw image files to process. 
+Examples are located in Z drive in 2 photon tomography folder under each sample: 
+Example Directory: common\2 Photon Tomography\Sample 557\raw full res single channel single plane
+
+Run one sample at a time to build up the dataset in Cell Coordinates/Transformed Coordinates/Collection
 Once all have been run, you can run wba.phil_all_v1_analysis() 
   
 
