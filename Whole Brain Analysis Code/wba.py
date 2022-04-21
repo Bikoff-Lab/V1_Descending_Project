@@ -57,7 +57,7 @@ def phil_tree_build():
 def phil_registration(sample_number):
     fixed=ants.image_read(path + 'Registration/Resliced_P56_Atlas_flipped.nrrd')
     moving=ants.image_read(path + 'Pre-processing/Stacks/DS_MIPs.nrrd')
-    treg=ants.registration(fixed=fixed,moving=moving,grad_step=0.2,type_of_transform='SyNRA',syn_metric='mattes',verbose=True)
+    treg=ants.registration(fixed=fixed,moving=moving,grad_step=0.05,type_of_transform='SyNRA',syn_metric='mattes',verbose=True)
     os.chdir(path+'Registration/Registered Images/')
     ants.image_write(treg['warpedmovout'],'Registered.nrrd')
     ants.image_write(treg['warpedfixout'],'fixed.nrrd')
